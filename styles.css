@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 1px 2px 2px #3d3d3d;
+    font-family:'Montserrat',sans-serif;
+}
+.container{
+    padding: 0 20px 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.time{
+    text-align: left;
+    font-size: 2rem;
+}
+.weather{
+    align-self: flex-start;
+    margin-top: -10px;
+}
+.weather-info{
+    display: flex;
+    align-items: center;
+}
+.temp{
+    font-size: 2rem;
+    margin-left: -10px;
+}
+.city{
+    font-size: 2rem;
+    text-align: right;
+    margin-top: -15px;
+}
+.main{
+    font-family: 'Kalam',sans-serif;
+}
+.main-text{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2em;
+}
+.main-content ul{
+    padding: 0;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 1.4rem;
+}
+.main-content ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.main-content ul li:hover{
+    color: #69f7b5;
+    opacity: 0.8;
+}
+.activity-text{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2em;
+    margin-top: -2em;
+}
+.facts-text{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2em;
+    margin-top: -2em;
+    
+}
